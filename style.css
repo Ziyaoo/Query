@@ -1,0 +1,534 @@
+@font-face {
+    font-family: zap;
+    src:url("fonts/ZapfinoExtraLTPro.otf");
+}
+
+@font-face {
+    font-family: optima;
+    src:url("fonts/Optima.ttc");
+}
+
+a{
+ text-decoration: none;
+
+}
+a:hover{
+  text-decoration: underline white 2px;
+
+}
+
+
+h1{
+  /* border: 1px solid black; */
+  text-align: center;
+  font-family: 'zap','Montserrat', sans-serif;
+
+  font-size: 150px;
+  color:white;
+  letter-spacing: 1px;
+  height: 90px;
+
+
+}
+
+h2{
+  position: fixed;
+
+  font-family: 'zap','Montserrat', sans-serif;
+  top:10px;
+  left:300px;
+  font-size: 30px;
+  color:white;
+  letter-spacing: 1px;
+  height: 90px;
+
+}
+
+
+  .dot01{
+  height: 10px;
+  width: 10px;
+  background-color: #BB836D;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  top:10px;
+  left:20px;
+    }
+
+    .dot02{
+    height: 10px;
+    width: 10px;
+    background-color: #DF817B;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    top:10px;
+    left:100px;
+      }
+
+    .ziyao{
+   position:fixed;
+   color:#BB836D;
+   left:35px;
+   top:8px;
+
+    }
+    .vic{
+   position:fixed;
+   color:#DF817B;
+   left:115px;
+   top:8px;
+
+    }
+
+
+.arrow{
+  position: fixed;
+  left:734px;
+  z-index: 10;
+}
+
+.vikiroom{
+
+  top:10px;
+  left:1050px;
+  z-index: 5;
+}
+
+img{
+  position:absolute;
+  }
+
+
+.back01{
+  background-image:  url('images/cover background.png');
+  background-repeat: no-repeat;
+  background-size:102%;
+
+
+}
+
+.back02{
+ background-color: #3C2423;
+
+  }
+  .backspace{
+    width: 763px; /* width of container */
+     height: 780px; /* height of container */
+     object-fit: cover;
+     object-position:0px -100px; /* try 20px 10px */
+     /* border: 5px solid black; */
+     position: fixed;
+     animation: MoveUpDown 5s linear infinite;
+    z-index: 1;
+  }
+
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: -20px;
+  }
+  50% {
+    bottom: 0px;
+  }
+}
+
+.header {
+  height: 50px;
+  /* border: 1px solid black; */
+}
+.feature{
+  height: 680px;
+  /* border: 1px solid black; */
+  padding: 100px;
+}
+
+
+
+
+.furniture{
+  height: 2900px;
+  /* border: 1px solid black; */
+  z-index: -1;
+
+
+}
+
+
+/*--------conversation ----*/
+/* .body{
+  font-family: 'optima','Montserrat', sans-serif;
+    font-size:14px;
+    letter-spacing: 0.3px;
+    color: white;}
+  } */
+
+  span{
+
+    color: #3C2423;
+    cursor: pointer;
+  }
+
+p{
+  font-family: 'optima','Montserrat', sans-serif;
+    font-size:14px;
+    letter-spacing: 0.3px;
+    color: white;}
+
+
+
+/* question 1 */
+
+.Q1text{
+  position: absolute;
+  left:55px;
+  top:115px;
+}
+
+.A1text{
+  position: absolute;
+  left:260px;
+  top:240px;
+  width:400px;
+  line-height: 18px;
+}
+
+.Q1{
+  left:30px;
+  top:100px;
+}
+
+.A1{
+  left:200px;
+  top:200px;
+}
+
+.tableline{
+  position: absolute;
+  left:485px;
+  top:257px;
+
+  }
+
+
+
+/* question2  */
+
+
+.Q2{
+  left:30px;
+  top:430px;
+}
+
+.A2{
+  left:200px;
+  top:550px;
+}
+
+.Q2text{
+  position: absolute;
+  left:55px;
+  top:442px;
+  width: 300px;
+  line-height: 18px;
+}
+
+.A2text{
+  position: absolute;
+  left:260px;
+  top:594px;
+  width:400px;
+  line-height: 18px;
+}
+
+/*  question3 */
+
+
+.Q3{
+  left:30px;
+  top:810px;
+}
+
+.A3{
+  left:200px;
+  top:900px;
+}
+
+.Q3text{
+  position: absolute;
+  left:55px;
+  top:825px;
+  width: 300px;
+  line-height: 18px;
+}
+
+.A3text{
+  position: absolute;
+  left:263px;
+  top:945px;
+  width:400px;
+  line-height: 18px;
+}
+
+/* question4 */
+
+.Q4{
+  left:30px;
+  top:1250px;
+}
+
+.A4{
+  left:200px;
+  top:1360px;
+}
+
+.Q4text{
+  position: absolute;
+  left:55px;
+  top:1265px;
+  width: 300px;
+  line-height: 18px;
+}
+
+.A4text{
+  position: absolute;
+  left:260px;
+  top:1400px;
+  width:395px;
+  line-height: 18px;
+}
+
+/* question 5 */
+.Q5{
+  left:30px;
+  top:1550px;
+}
+
+.A5{
+  left:200px;
+  top:1660px;
+}
+
+.Q5text{
+  position: absolute;
+  left:55px;
+  top:1562px;
+  width: 300px;
+  line-height: 18px;
+}
+
+.A5text{
+  position: absolute;
+  left:260px;
+  top:1695px;
+  width:395px;
+  line-height: 18px;
+}
+
+/* question 6 */
+
+.Q6{
+  left:30px;
+  top:1880px;
+}
+
+.A6{
+  left:200px;
+  top:1980px;
+}
+
+.Q6text{
+  position: absolute;
+  left:55px;
+  top:1895px;
+  width: 300px;
+  line-height: 18px;
+}
+
+.A6text{
+  position: absolute;
+  left:260px;
+  top:2015px;
+  width:395px;
+  line-height: 18px;
+}
+
+
+/* question 7 */
+
+.Q7{
+  left:30px;
+  top:2200px;
+}
+
+.A7{
+  left:200px;
+  top:2320px;
+}
+
+.Q7text{
+  position: absolute;
+  left:55px;
+  top:2210px;
+  width: 300px;
+  line-height: 18px;
+}
+
+.A7text{
+  position: absolute;
+  left:260px;
+  top:2390px;
+  width:395px;
+  line-height: 18px;
+}
+
+
+/*--------pictures on rightside --------*/
+/* .table{
+  position: fixed;
+  top:250px;
+  left:850px;
+  z-index: 5;
+
+  display:none;
+
+  }
+
+.console{
+  color: #CF665F;
+  cursor: pointer;
+}
+
+
+.console:hover + .table {
+        display: block;
+
+      } */
+
+
+/* .tableline:hover{
+  width:90px;
+} */
+
+.table{
+  position: fixed;
+  top:250px;
+  left:850px;
+  z-index: 5;
+
+  display:none;
+
+  }
+
+
+
+
+.A1text:hover + .table{
+        display: inline-block;
+
+      }
+
+
+
+.pinterest{
+         position: fixed;
+         left:1000px;
+         top:250px;
+         z-index: 5;
+         /* display:none; */
+      }
+
+
+
+.A3text:hover + .A3images {
+                display: inline-block;
+}
+
+
+.A5images{
+display: none;
+}
+
+.A7images{
+display: none;
+}
+
+.A3images{
+display: none;
+}
+.A5text:hover + .A5images{
+              display: inline-block;
+}
+
+.A6text:hover + .vase{
+              display: inline-block;
+}
+
+.A7text:hover + .A7images{
+              display: inline-block;
+}
+
+
+.cat{
+  position: fixed;
+  left:1050px;
+  top:100px;
+  z-index: 2;
+  /* display:none; */
+}
+
+.search{
+  position: fixed;
+  left:1020px;
+  top:200px;
+  z-index: 2;
+
+}
+
+
+
+
+
+.coffee{
+position: fixed;
+left:1030px;
+top:420px;
+z-index: 2;
+/* display:none; */
+  }
+
+.diningtable{
+  position: fixed;
+  left:830px;
+  top:350px;
+  z-index: 3;
+  /* display:none; */
+}
+
+.vase{
+  position: fixed;
+  left:1030px;
+  top:250px;
+  z-index: 2;
+  display:none;
+}
+
+.chair{
+  position: fixed;
+  left:1050px;
+  top:200px;
+  z-index: 2;
+  /* display:none; */
+
+}
+
+
+
+
+
+
+.product {
+  height: 50px;
+  /* border: 1px solid black; */
+}
